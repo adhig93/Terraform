@@ -16,9 +16,9 @@ variable "REGION" {
 }
 variable "ACCESS_KEY" {
     type = string
-   default = "AKIATO4HIGKBJG37HJWI"
+   default = "AKIATO4HIGKBJFHVNHDL"
 }
 variable "SECRET_KEY" {
     type = string
-   default = "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"
+   default = "ote4qKb17RUSPzzrOrKwswzw7MzUicXi8lOcHAy8"
 }

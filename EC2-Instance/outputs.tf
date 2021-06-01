@@ -9,6 +9,6 @@ output "Pubil_ip" {
 output "ami" {
     value = aws_instance.my-instance.ami
 }
-output "vpc" {
-    value = aws_instance.my-instance.availability_zone
+output "subnet" {
+    value = aws_instance.my-instance.subnet_id
 }
