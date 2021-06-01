@@ -15,7 +15,7 @@ resource "aws_security_group" "all_traffic" {
     ipv6_cidr_blocks = ["::/0"]
   }
   tags = {
-        Name = "all-traffic"
+        "name" = "all-traffic"
     }
 
 }
