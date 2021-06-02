@@ -1,3 +1,3 @@
-output "vpc_id" {
-  value = aws_vpc.my-vpc.id
+output "vpc_for_prod_id" {
+  value = aws_vpc.vpc_for_prod.id
 }

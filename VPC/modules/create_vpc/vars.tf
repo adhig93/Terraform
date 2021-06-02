@@ -1,8 +1,8 @@
-variable "cidr_vpc" {
+variable "vpc_for_prod_cidr" {
   type = string
   default = "10.0.0.0/16"
 }
-variable "vpc_name" {
+variable "vpc_for_prod_name" {
   type = string
-  default = "my-vpc"
+  default = "prod-vpc"
 }
