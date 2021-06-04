@@ -11,8 +11,8 @@ output "crt_id" {
   value = module.to_create_route_table.public_crt_prod_id
 }
 output "sg_id" {
-    value = module.to_create_security_group.security_group_prod_id
+  value = module.to_create_security_group.security_group_prod_id
 }
 output "instance_id" {
-    value = module.to_create_ec2.instance_id
+  value = module.to_create_ec2.instance_id
 }
