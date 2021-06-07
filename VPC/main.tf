@@ -28,3 +28,10 @@ module "to_create_ec2" {
   subnet_id = module.to_create_subnet.public_subnet_prod_id
   sg_id     = module.to_create_security_group.security_group_prod_id
 }
+module "to_create_s3" {
+  source = "./modules/create_s3"
+}
+module "to_create_dynamodb" {
+  source = "./modules/create_dynamodb"
+  
+}

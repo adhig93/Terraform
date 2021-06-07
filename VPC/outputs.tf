@@ -16,3 +16,9 @@ output "sg_id" {
 output "instance_id" {
   value = module.to_create_ec2.instance_id
 }
+output "dynamodb_id" {
+  value = module.to_create_dynamodb.dynamodb_table_for_remotestate_id
+}
+output "s3bucket_id" {
+  value = module.to_create_s3.s3_bucket_for_remotestate_id
+}
