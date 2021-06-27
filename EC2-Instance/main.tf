@@ -1,5 +1,5 @@
 resource "aws_security_group" "all_traffic" {
-  vpc_id = "vpc-2471e659"
+  vpc_id = "vpc-9fb60be2"
   egress {
     from_port        = 0
     to_port          = 0
