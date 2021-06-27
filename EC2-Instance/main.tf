@@ -27,6 +27,6 @@ resource "aws_instance" "my-instance" {
   ami = var.AMI
   count = 3
   tags = {
-    "Name" = "test"
+    "Name" = "test ${count.index}"
   }
 }
