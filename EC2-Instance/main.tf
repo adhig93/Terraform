@@ -22,6 +22,7 @@ resource "aws_security_group" "all_traffic" {
 
 resource "aws_instance" "my-instance" {
   vpc_security_group_ids = ["${aws_security_group.all_traffic.id}"]
+  count = 3
   key_name = var.KEY
   instance_type = var.INSTANCE_TYPE
   ami = var.AMI
