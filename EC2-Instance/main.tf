@@ -26,6 +26,6 @@ resource "aws_instance" "my-instance" {
   instance_type = var.INSTANCE_TYPE
   ami = var.AMI
   tags = {
-    "name" = "test"
+    "Name" = "test"
   }
 }
